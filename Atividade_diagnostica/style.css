@@ -1,0 +1,58 @@
+body{
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.imagem picture{
+    align-items: end;
+    max-width: 10px; 
+    border-radius: 50%;
+}
+
+.principal{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    color:rgb(0, 0, 0);
+    margin: 20px 0; 
+}
+
+.principal h2, h3 {
+    text-align: left;
+}
+
+.tecnologias{
+    background-color: azure;
+    padding: 20px; 
+    margin: 20px 0;
+}
+
+.cards{
+    background-color: beige; 
+    display: flex; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.card1{
+    flex: 1; 
+    background-color: white; 
+    padding: 15px; 
+    border-radius: 10px;
+}
+
+footer{
+    background-color: blanchedalmond; 
+    font-size: large; 
+    font-weight: 400; 
+    padding: 15px; 
+    margin-top: 20px;
+}
