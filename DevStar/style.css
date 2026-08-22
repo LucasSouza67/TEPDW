@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #18201d;
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-color: #18201d;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid #d6ff3f;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+
+.logo strong {
+    color: #d6ff3f;
+}
+
+
+.menu a {
+    color: white;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+#inicio {
+    background-color: #22302b;
+    color: white;
+}
+
+.hero {
+    padding: 80px 0;
+}
+
+.hero-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-texto {
+    width: 58%;
+}
+
+
+.hero-texto h1 {
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.hero-texto p {
+    font-size: 19px;
+    color: #d7dfdc;
+    margin-bottom: 35px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #d6ff3f;
+    color: #18201d;
+    padding: 8px 15px;
+    border: 2px solid #d6ff3f;
+    font-size: 12px;
+}
+
+#tag-principal {
+    color: #101512;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #d6ff3f;
+    color: #18201d;
+    padding: 15px 24px;
+    border: 2px solid #d6ff3f;
+}
+
+.painel {
+    width: 34%;
+    background-color: #f4f1ea;
+    color: #18201d;
+    padding: 35px;
+    border: 4px solid #d6ff3f;
+    position: relative;
+}
+
+.numero {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    font-size: 35px;
+
+    color: #b5b8ad;
+}
+
+.painel-titulo {
+    font-size: 12px;
+}
+
+
+.painel h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.linha {
+    height: 3px;
+    background-color: #18201d;
+    margin-bottom: 25px;
+}
+
+.painel p {
+    border-bottom: 1px solid #a4aaa7;
+    padding-bottom: 10px;
+}
+
+.secao {
+    padding: 75px 0;
+}
+
+
+.secao h2 {
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.secao h2 + p {
+    color: #626b67;
+    font-size: 18px;
+}
